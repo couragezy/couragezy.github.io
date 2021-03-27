@@ -6,7 +6,7 @@
   <link href="http://couragezy.github.io/atom.xml" rel="self"/>
   
   <link href="http://couragezy.github.io/"/>
-  <updated>2021-03-26T16:02:47.076Z</updated>
+  <updated>2021-03-26T16:00:59.880Z</updated>
   <id>http://couragezy.github.io/</id>
   
   <author>
@@ -15,19 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>hello</title>
-    <link href="http://couragezy.github.io/2021/03/27/hello/"/>
-    <id>http://couragezy.github.io/2021/03/27/hello/</id>
-    <published>2021-03-26T16:02:47.000Z</published>
-    <updated>2021-03-26T16:02:47.076Z</updated>
-    
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
