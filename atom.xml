@@ -6,7 +6,7 @@
   <link href="http://couragezy.github.io/atom.xml" rel="self"/>
   
   <link href="http://couragezy.github.io/"/>
-  <updated>2021-04-05T17:57:48.135Z</updated>
+  <updated>2021-04-05T18:01:55.341Z</updated>
   <id>http://couragezy.github.io/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="http://couragezy.github.io/2021/04/06/ce-shi/"/>
     <id>http://couragezy.github.io/2021/04/06/ce-shi/</id>
     <published>2021-04-05T17:13:43.000Z</published>
-    <updated>2021-04-05T17:57:48.135Z</updated>
+    <updated>2021-04-05T18:01:55.341Z</updated>
     
     
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;content这是文章内容&lt;/p&gt;&lt;/blockquote&gt;</summary>
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;标签插件（Tag Plugins）&lt;br&gt;标签插件和 Front-matter 中的标签不同，它们是用于在文章中快速插入特定内容的插件。&lt;br&gt;虽然你可以使用任何格式书写你的文章，但是标签插件永远可用，且语法也都是一致的。&lt;br&gt;Tag plugins should not be wrapped inside Markdown syntax, e.g. &lt;a href=&quot;&quot;&gt;&lt;/a&gt; is not supported.&lt;/p&gt;&lt;/blockquote&gt;</summary>
     
     
     
@@ -33,12 +33,6 @@
     <category term="分类1-1" scheme="http://couragezy.github.io/categories/%E5%88%86%E7%B1%BB1/%E5%88%86%E7%B1%BB1-1/"/>
     
     <category term="分类2" scheme="http://couragezy.github.io/categories/%E5%88%86%E7%B1%BB2/"/>
-    
-    <category term="分类2-1" scheme="http://couragezy.github.io/categories/%E5%88%86%E7%B1%BB2/%E5%88%86%E7%B1%BB2-1/"/>
-    
-    <category term="分类2-2" scheme="http://couragezy.github.io/categories/%E5%88%86%E7%B1%BB2/%E5%88%86%E7%B1%BB2-1/%E5%88%86%E7%B1%BB2-2/"/>
-    
-    <category term="分类3" scheme="http://couragezy.github.io/categories/%E5%88%86%E7%B1%BB3/"/>
     
     
     <category term="标签1" scheme="http://couragezy.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>

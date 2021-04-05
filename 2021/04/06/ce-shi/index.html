@@ -466,18 +466,6 @@
                                 分类2
                             </a>
                         
-                            <a href="/categories/%E5%88%86%E7%B1%BB2/%E5%88%86%E7%B1%BB2-1/" class="post-category">
-                                分类2-1
-                            </a>
-                        
-                            <a href="/categories/%E5%88%86%E7%B1%BB2/%E5%88%86%E7%B1%BB2-1/%E5%88%86%E7%B1%BB2-2/" class="post-category">
-                                分类2-2
-                            </a>
-                        
-                            <a href="/categories/%E5%88%86%E7%B1%BB3/" class="post-category">
-                                分类3
-                            </a>
-                        
                     </div>
                     
                 </div>
@@ -501,14 +489,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    15
+                    622
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 
@@ -528,21 +516,56 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <blockquote><p>content这是文章内容</p>
+                <blockquote><p>标签插件（Tag Plugins）<br>标签插件和 Front-matter 中的标签不同，它们是用于在文章中快速插入特定内容的插件。<br>虽然你可以使用任何格式书写你的文章，但是标签插件永远可用，且语法也都是一致的。<br>Tag plugins should not be wrapped inside Markdown syntax, e.g. <a href=""></a> is not supported.</p>
 <span id="more"></span>
-<p>ibcicbwibcvwebcvewefwe</p>
+<p>引用块<br>在文章中插入引言，可包含作者、来源和标题。</p>
+<p>别号： quote</p>
+<blockquote><p>content</p>
+<footer><strong>[author[</strong><cite>source]] [link] [source_link_title]</cite></footer></blockquote>
+<p>样例<br>没有提供参数，则只输出普通的 blockquote</p>
+<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.</p>
 </blockquote>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.</p>
+<p>引用书上的句子</p>
+<blockquote><p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+<p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
+<p>David LevithanWide Awake<br>引用 Twitter</p>
+<blockquote><p>NEW: DevDocs now comes with syntax highlighting. <a target="_blank" rel="noopener" href="http://devdocs.io/">http://devdocs.io</a></p>
+<footer><strong>@DevDocs</strong><cite><a target="_blank" rel="noopener" href="https://twitter.com/devdocs/status/356095192085962752">twitter.com/devdocs/status/356095192085962752</a></cite></footer></blockquote>
+<p>NEW: DevDocs now comes with syntax highlighting. <a target="_blank" rel="noopener" href="http://devdocs.io/">http://devdocs.io</a></p>
+<p>@DevDocstwitter.com/devdocs/status/356095192085962752<br>引用网络上的文章</p>
+<blockquote><p>Every interaction is both precious and an opportunity to delight.</p>
+<footer><strong>Seth Godin</strong><cite><a target="_blank" rel="noopener" href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html">Welcome to Island Marketing</a></cite></footer></blockquote>
+<p>Every interaction is both precious and an opportunity to delight.</p>
+<p>Seth GodinWelcome to Island Marketing<br>代码块<br>在文章中插入代码。</p>
+<p>别名： code</p>
+<pre><code>code snippet</code></pre>
+<p>Specify additional options in option:value format, e.g. line_number:false first_line:5.</p>
+<p>Extra Options    Description    Default<br>line_number    Show line number    true<br>highlight    Enable code highlighting    true<br>first_line    Specify the first line number    1<br>mark    Line highlight specific line(s), each value separated by a comma. Specify number range using a dash<br>Example: mark:1,4-7,10 will mark line 1, 4 to 7 and 10.<br>wrap    Wrap the code block in     true<br><br><p></p><pre><code>alert('Hello World!');</code></pre><p>alert(‘Hello World!’);<br>指定语言</p><pre><code>[rectangle setX: 10 y: 10 width: 20 height: 20];</code></pre><p>[rectangle setX: 10 y: 10 width: 20 height: 20];<br>附加说明</p><pre><code>array.map(callback[, thisArg])</code></pre><p>Array.map<br>array.map(callback[, thisArg])<br>附加说明和网址</p><pre><code>_.compact([0, 1, false, 2, '', 3]);
+=&gt; [1, 2, 3]</code></pre><p>_.compactUnderscore.js<br>_.compact([0, 1, false, 2, ‘’, 3]);<br>=&gt; [1, 2, 3]<br>反引号代码块<br>另一种形式的代码块，不同的是它使用三个反引号来包裹。</p><p><code>[language] [title] [url] [link text] code snippet</code><br>Pull Quote<br>在文章中插入 Pull quote。</p><blockquote class="pullquote [class]"><p>content</p>
+</blockquote><p>jsFiddle<br>在文章中嵌入 jsFiddle。</p><iframe scrolling="no" width="[width]" height="[height]" src="https://jsfiddle.net/shorttag/embedded/[tabs]/[skin]" frameborder="0" loading="lazy" allowfullscreen=""></iframe><p>Gist<br>在文章中嵌入 Gist。</p><p>iframe<br>在文章中插入 iframe。</p><iframe src="url" width="[width]" height="[height]" frameborder="0" loading="lazy" allowfullscreen=""></iframe><p>Image<br>在文章中插入指定大小的图片。</p><img src="/pic/%E6%B5%8B%E8%AF%95/favicon.png" class="[我的头像]" title="[width] [height] " alt="我的头像"><p>Link<br>在文章中插入链接，并自动给外部链接添加 target=”_blank” 属性。</p><a href="https://couragezy.github.io/2021/04/06/ce-shi/" title="[external] [title]" target="">text</a><p>Include Code<br>插入 source/downloads/code 文件夹内的代码文件。source/downloads/code 不是固定的，取决于你在配置文件中 code_dir 的配置。</p><table>
 
-<pre><code>alert('Hello World!');</code></pre>
 
 
-<blockquote class="pullquote [class]"><p>content</p>
-</blockquote>
-
-<img src="/pic/%E8%89%B2%E6%8B%89%E5%AF%BA-2021-04-06/favicon.png" class="[头像]" title="[100] [100] " alt="我的头像">
 
 
-<a href="https://couragezy.github.io/2021/04/06/se-la-si/" title="[external] [色拉寺]" target="">色拉寺</a>
+
+
+
+
+
+
+
+
+<script src="//gist.github.com/gist_id.js?file=[filename]"></script>
+
+
+
+
+
+
+</table>样例普通的代码块</p></blockquote>
                 
             </div>
             <hr/>
@@ -829,7 +852,7 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            content这是文章内容
+                            标签插件（Tag Plugins）标签插件和 Front-matter 中的标签不同，它们是用于在文章中快速插入特定内容的插件。虽然你可以使用任何格式书写你的文章，但是标签插件永远可用，且语法也都是一致的。Tag plugins shoul
                         
                     </div>
                     <div class="publish-info">
@@ -850,18 +873,6 @@
                             
                             <a href="/categories/%E5%88%86%E7%B1%BB2/" class="post-category">
                                     分类2
-                                </a>
-                            
-                            <a href="/categories/%E5%88%86%E7%B1%BB2/%E5%88%86%E7%B1%BB2-1/" class="post-category">
-                                    分类2-1
-                                </a>
-                            
-                            <a href="/categories/%E5%88%86%E7%B1%BB2/%E5%88%86%E7%B1%BB2-1/%E5%88%86%E7%B1%BB2-2/" class="post-category">
-                                    分类2-2
-                                </a>
-                            
-                            <a href="/categories/%E5%88%86%E7%B1%BB3/" class="post-category">
-                                    分类3
                                 </a>
                             
                             
@@ -907,7 +918,7 @@
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            content这是文章内容
+                            标签插件（Tag Plugins）标签插件和 Front-matter 中的标签不同，它们是用于在文章中快速插入特定内容的插件。虽然你可以使用任何格式书写你的文章，但是标签插件永远可用，且语法也都是一致的。Tag plugins shoul
                         
                     </div>
                     <div class="publish-info">
@@ -928,18 +939,6 @@
                             
                             <a href="/categories/%E5%88%86%E7%B1%BB2/" class="post-category">
                                     分类2
-                                </a>
-                            
-                            <a href="/categories/%E5%88%86%E7%B1%BB2/%E5%88%86%E7%B1%BB2-1/" class="post-category">
-                                    分类2-1
-                                </a>
-                            
-                            <a href="/categories/%E5%88%86%E7%B1%BB2/%E5%88%86%E7%B1%BB2-1/%E5%88%86%E7%B1%BB2-2/" class="post-category">
-                                    分类2-2
-                                </a>
-                            
-                            <a href="/categories/%E5%88%86%E7%B1%BB3/" class="post-category">
-                                    分类3
                                 </a>
                             
                             
