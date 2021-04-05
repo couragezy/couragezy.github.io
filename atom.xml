@@ -6,7 +6,7 @@
   <link href="http://couragezy.github.io/atom.xml" rel="self"/>
   
   <link href="http://couragezy.github.io/"/>
-  <updated>2021-03-26T16:00:59.880Z</updated>
+  <updated>2021-04-05T17:47:23.810Z</updated>
   <id>http://couragezy.github.io/</id>
   
   <author>
@@ -17,23 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://couragezy.github.io/2021/03/27/hello-world/"/>
-    <id>http://couragezy.github.io/2021/03/27/hello-world/</id>
-    <published>2021-03-26T16:00:59.880Z</published>
-    <updated>2021-03-26T16:00:59.880Z</updated>
+    <title>色拉寺</title>
+    <link href="http://couragezy.github.io/2021/04/06/se-la-si/"/>
+    <id>http://couragezy.github.io/2021/04/06/se-la-si/</id>
+    <published>2021-04-05T17:13:43.000Z</published>
+    <updated>2021-04-05T17:47:23.810Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;content这是文章内容&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;alert(&#39;Hello World!&#39;);&lt;/code&gt;&lt;/pre&gt;
+
+
+&lt;blockquote class=&quot;pullquote</summary>
         
       
     
     
     
+    <category term="旅游" scheme="http://couragezy.github.io/categories/%E6%97%85%E6%B8%B8/"/>
+    
+    
+    <category term="拉萨周边" scheme="http://couragezy.github.io/tags/%E6%8B%89%E8%90%A8%E5%91%A8%E8%BE%B9/"/>
+    
+    <category term="色拉寺" scheme="http://couragezy.github.io/tags/%E8%89%B2%E6%8B%89%E5%AF%BA/"/>
     
   </entry>
   
