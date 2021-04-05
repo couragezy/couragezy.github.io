@@ -4,25 +4,37 @@
   
     
     <entry>
-      <title>色拉寺</title>
-      <link href="2021/04/06/se-la-si/"/>
-      <url>2021/04/06/se-la-si/</url>
+      <title>测试</title>
+      <link href="2021/04/06/ce-shi/"/>
+      <url>2021/04/06/ce-shi/</url>
       
-        <content type="html"><![CDATA[<blockquote><p>content这是文章内容</p></blockquote><pre><code>alert('Hello World!');</code></pre><blockquote class="pullquote [class]"><p>content</p></blockquote><img src="/pic/%E8%89%B2%E6%8B%89%E5%AF%BA-2021-04-06/favicon.png" class="[头像, 哈哈]" title="[100] [100] " alt="我的头像"><a href="" title="" target="">text url [external] [title]</a>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>content这是文章内容</p><span id="more"></span><p>ibcicbwibcvwebcvewefwe</p></blockquote><pre><code>alert('Hello World!');</code></pre><blockquote class="pullquote [class]"><p>content</p></blockquote><img src="/pic/%E8%89%B2%E6%8B%89%E5%AF%BA-2021-04-06/favicon.png" class="[头像]" title="[100] [100] " alt="我的头像"><a href="https://couragezy.github.io/2021/04/06/se-la-si/" title="[external] [色拉寺]" target="">色拉寺</a>]]></content>
       
       
       <categories>
           
-          <category> 旅游 </category>
+          <category> 分类1 </category>
+          
+          <category> 分类1-1 </category>
+          
+          <category> 分类2 </category>
+          
+          <category> 分类2-1 </category>
+          
+          <category> 分类2-2 </category>
+          
+          <category> 分类3 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 拉萨周边 </tag>
+            <tag> 标签1 </tag>
             
-            <tag> 色拉寺 </tag>
+            <tag> 标签2 </tag>
+            
+            <tag> 标签3 </tag>
             
         </tags>
       

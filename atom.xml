@@ -6,7 +6,7 @@
   <link href="http://couragezy.github.io/atom.xml" rel="self"/>
   
   <link href="http://couragezy.github.io/"/>
-  <updated>2021-04-05T17:47:23.810Z</updated>
+  <updated>2021-04-05T17:57:48.135Z</updated>
   <id>http://couragezy.github.io/</id>
   
   <author>
@@ -17,35 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>色拉寺</title>
-    <link href="http://couragezy.github.io/2021/04/06/se-la-si/"/>
-    <id>http://couragezy.github.io/2021/04/06/se-la-si/</id>
+    <title>测试</title>
+    <link href="http://couragezy.github.io/2021/04/06/ce-shi/"/>
+    <id>http://couragezy.github.io/2021/04/06/ce-shi/</id>
     <published>2021-04-05T17:13:43.000Z</published>
-    <updated>2021-04-05T17:47:23.810Z</updated>
+    <updated>2021-04-05T17:57:48.135Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;&lt;p&gt;content这是文章内容&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;pre&gt;&lt;code&gt;alert(&#39;Hello World!&#39;);&lt;/code&gt;&lt;/pre&gt;
-
-
-&lt;blockquote class=&quot;pullquote</summary>
-        
-      
+    <summary type="html">&lt;blockquote&gt;&lt;p&gt;content这是文章内容&lt;/p&gt;&lt;/blockquote&gt;</summary>
     
     
     
-    <category term="旅游" scheme="http://couragezy.github.io/categories/%E6%97%85%E6%B8%B8/"/>
+    <category term="分类1" scheme="http://couragezy.github.io/categories/%E5%88%86%E7%B1%BB1/"/>
+    
+    <category term="分类1-1" scheme="http://couragezy.github.io/categories/%E5%88%86%E7%B1%BB1/%E5%88%86%E7%B1%BB1-1/"/>
+    
+    <category term="分类2" scheme="http://couragezy.github.io/categories/%E5%88%86%E7%B1%BB2/"/>
+    
+    <category term="分类2-1" scheme="http://couragezy.github.io/categories/%E5%88%86%E7%B1%BB2/%E5%88%86%E7%B1%BB2-1/"/>
+    
+    <category term="分类2-2" scheme="http://couragezy.github.io/categories/%E5%88%86%E7%B1%BB2/%E5%88%86%E7%B1%BB2-1/%E5%88%86%E7%B1%BB2-2/"/>
+    
+    <category term="分类3" scheme="http://couragezy.github.io/categories/%E5%88%86%E7%B1%BB3/"/>
     
     
-    <category term="拉萨周边" scheme="http://couragezy.github.io/tags/%E6%8B%89%E8%90%A8%E5%91%A8%E8%BE%B9/"/>
+    <category term="标签1" scheme="http://couragezy.github.io/tags/%E6%A0%87%E7%AD%BE1/"/>
     
-    <category term="色拉寺" scheme="http://couragezy.github.io/tags/%E8%89%B2%E6%8B%89%E5%AF%BA/"/>
+    <category term="标签2" scheme="http://couragezy.github.io/tags/%E6%A0%87%E7%AD%BE2/"/>
+    
+    <category term="标签3" scheme="http://couragezy.github.io/tags/%E6%A0%87%E7%AD%BE3/"/>
     
   </entry>
   
