@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="./css/layui.css" />
+		<link rel="stylesheet" href="./css/psv.min.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div id="viewer" style="width: 90vw; height: 90vh; margin-left: 5vw; margin-top: 5vh;">
+				<div class="layui-form" style="margin: 1vw; position: absolute; z-index: 2; opacity: 0.6;">
+					<select id="select_pic" lay-filter="demo-select-filter"> </select>
+				</div>
+			</div>
+		</div>
+	</body>
+
+	<script src="./js/three.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/psv.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		layui.use(function() {
+			var form = layui.form;
+			var $ = layui.$;
+			$.ajax({
+				url: "./data/pic_src.json",
+				method: "get",
+				data: {},
+				success: function(data) {
+					if (data.length > 0) {
+						//填充选择组件
+						for (var i = 0; i < data.length; i++) {
+							$("#select_pic").append("<option value='" + i + "'>" + data[i].name +
+								"</option>")
+						}
+						form.render("select");//重新渲染select组件
+						//全景图显示
+						const viewer = new PhotoSphereViewer.Viewer({
+							container: document.querySelector('#viewer'),
+							panorama: data[0].src, //全景图片路径
+						});
+						// select 事件
+						form.on('select(demo-select-filter)', function(res) {
+							viewer.setPanorama(data[res.value].src);
+						});
+					}
+				}
+			});
+		});
+	</script>
+</html>
