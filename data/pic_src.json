@@ -1,9 +1,7 @@
- [{
- 		"name": "成都市大邑县董场镇",
- 		"src": "https://raw.githubusercontent.com/couragezy/pics/master/2023/成都市大邑县董场镇.jpg"
- 	},
- 	{
- 		"name": "我家",
- 		"src": "https://raw.githubusercontent.com/couragezy/pics/master/2023/我家.jpg"
- 	}
- ]
+[{
+ 	"name": "成都市大邑县董场镇",
+ 	"src": "https://raw.githubusercontent.com/couragezy/pics/master/2023/成都市大邑县董场镇.jpg"
+ }, {
+ 	"name": "家",
+ 	"src": "https://raw.githubusercontent.com/couragezy/pics/master/2023/家.jpg"
+ }]
