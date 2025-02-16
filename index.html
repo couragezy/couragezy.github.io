@@ -11,7 +11,9 @@
 		<div class="container">
 			<div id="viewer" style="width: 100vw; height: 90vh;">
 				<div class="layui-form" style="margin: 1vw; position: absolute; z-index: 2; opacity: 0.6;">
-					<select id="select_pic" lay-filter="demo-select-filter"> </select>
+					<select id="select_province" lay-filter="province-select-filter"> </select>
+					<select id="select_city" lay-filter="city-select-filter"> </select>
+					<select id="select_pic" lay-filter="pic-select-filter"> </select>
 				</div>
 			</div>
 		</div>
@@ -21,33 +23,151 @@
 	<script src="./js/psv.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="./js/layui.js" type="text/javascript" charset="utf-8"></script>
 	<script>
-		layui.use(function() {
-			var form = layui.form;
-			var $ = layui.$;
-			$.ajax({
-				url: "./data/pic_src.json",
-				method: "get",
-				data: {},
-				success: function(data) {
-					if (data.length > 0) {
-						//填充选择组件
-						for (var i = 0; i < data.length; i++) {
-							$("#select_pic").append("<option value='" + i + "'>" + data[i].name +
-								"</option>")
-						}
-						form.render("select");//重新渲染select组件
-						//全景图显示
-						const viewer = new PhotoSphereViewer.Viewer({
-							container: document.querySelector('#viewer'),
-							panorama: data[0].src, //全景图片路径
-						});
-						// select 事件
-						form.on('select(demo-select-filter)', function(res) {
-							viewer.setPanorama(data[res.value].src);
-						});
-					}
-				}
-			});
+		var $ = layui.$;
+
+		//全景图显示
+		const viewer = new PhotoSphereViewer.Viewer({
+			container: document.querySelector('#viewer'),
+			panorama: "", //全景图片路径
 		});
+
+		layui.use('form', function() {
+			form = layui.form;
+			loadProvince();
+			loadCity();
+			loadPic();
+		})
+
+		layui.use('layer', function() {
+			layer = layui.layer;
+		})
+
+		function loadProvince() {
+			$().ready(function() {
+				$.ajax({
+					url: "./data/pic_src.json",
+					method: "get",
+					async: true,
+					data: {},
+					success: function(data) {
+						if (data.length > 0) {
+							console.log(data);
+							//填充选择组件
+							for (var i = 0; i < data.length; i++) {
+								$("#select_province").append("<option value='" + i + "'>" + data[i].province_name +
+									"</option>")
+							}
+							if (data[0].cities.length > 0) {
+								for (var j = 0; j < data[0].cities.length; j++) {
+									$("#select_city").append("<option value='" + j + "'>" + data[0].cities[j].city_name +
+										"</option>")
+								}
+								if (data[0].cities[0].pics.length > 0) {
+									for (var j = 0; j < data[0].cities[0].pics.length; j++) {
+										$("#select_pic").append("<option value='" + j + "'>" + data[0].cities[0].pics[j].pic_name +
+											"</option>")
+									}
+									viewer.setPanorama(data[0].cities[0].pics[0].pic_src);
+								}
+							}
+							form.render("select"); //重新渲染select组件
+							form.render();
+						}
+					},
+					error() {
+						console.log("加载省份出错啦！");
+					}
+				});
+			})
+		}
+
+		function loadCity() {
+			form.on('select(province-select-filter)', function() {
+				$("#select_city").html("");
+				$("#select_pic").html("");
+				var province_index = $('#select_province option:selected').val();
+				console.log(province_index);
+				$.ajax({
+					url: "./data/pic_src.json",
+					method: "get",
+					async: true,
+					data: {},
+					success: function(data) {
+						var city_list = data[province_index].cities;
+						console.log(city_list);
+						if (city_list.length > 0) {
+							//填充选择组件
+							for (var i = 0; i < city_list.length; i++) {
+								$("#select_city").append("<option value='" + i + "'>" + city_list[i].city_name +
+									"</option>")
+							}
+							if (city_list[0].pics.length > 0) {
+								for (var j = 0; j < city_list[0].pics.length; j++) {
+									$("#select_pic").append("<option value='" + j + "'>" + city_list[0].pics[j].pic_name +
+										"</option>")
+								}
+								viewer.setPanorama(city_list[0].pics[0].pic_src);
+							}
+							form.render("select"); //重新渲染select组件
+							form.render();
+						}
+					},
+					error() {
+						console.log("加载城市出错啦！");
+					}
+				});
+			})
+		}
+
+		function loadPic() {
+			form.on('select(city-select-filter)', function() {
+				$("#select_pic").html("");
+				var province_index = $('#select_province option:selected').val();
+				var city_index = $('#select_city option:selected').val();
+				$.ajax({
+					url: "./data/pic_src.json",
+					method: "get",
+					async: true,
+					data: {},
+					success: function(data) {
+						var pic_list = data[province_index].cities[city_index].pics;
+						if (pic_list.length > 0) {
+							//填充选择组件
+							for (var i = 0; i < pic_list.length; i++) {
+								$("#select_pic").append("<option value='" + i + "'>" + pic_list[i].pic_name +
+									"</option>")
+							}
+							viewer.setPanorama(pic_list[0].pic_src);
+							form.render("select"); //重新渲染select组件
+							form.render();
+						}
+					},
+					error() {
+						console.log("加载图片名出错啦！");
+					}
+				});
+			})
+			
+			// select 事件
+			form.on('select(pic-select-filter)', function(res) {				
+				var province_index = $('#select_province option:selected').val();
+				var city_index = $('#select_city option:selected').val();
+				$.ajax({
+					url: "./data/pic_src.json",
+					method: "get",
+					async: true,
+					data: {},
+					success: function(data) {
+						var pic_list = data[province_index].cities[city_index].pics;
+						if (pic_list.length > 0) {
+							viewer.setPanorama(data[province_index].cities[city_index].pics[res.value].pic_src);
+						}
+					},
+					error() {
+						console.log("加载图片名出错啦！");
+					}
+				});
+			});
+		}
 	</script>
 </html>
