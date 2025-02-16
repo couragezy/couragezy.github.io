@@ -1,4 +1,46 @@
-[ {
+[ [{
+	"name": "我的家",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/ky8ZYGw2.jpg"
+}, {
+	"name": "重庆市奉节县羊市镇大淌村",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/ZuAOrSzc.jpg"
+}, {
+	"name": "重庆市北碚区金刚碑",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/NCp7Fmb5.jpg"
+}, {
+	"name": "重庆市渝北区铁山坪",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/ujdFrhPy.jpg"
+}, {
+	"name": "成都市大邑县西河边",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/aabTzFvM.jpg"
+}, {
+	"name": "甘孜州雅江县天路十八弯",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/IDk4V1V7.jpg"
+}, {
+	"name": "甘孜州巴塘县姊妹湖",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/FuIYkuuU.jpg"
+}, {
+	"name": "大理市磻溪",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/F85EetHv.jpg"
+}, {
+	"name": "大理市文笔村",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/RLLDx0RM.jpg"
+}, {
+	"name": "大理市罗荃半岛",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/IJhe8cyy.jpg"
+}, {
+	"name": "昌都市八宿县怒江72拐",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/CUmvXnxY.jpg"
+}, {
+	"name": "山南鲁日拉观景台",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/MWVzjsua.jpg"
+}, {
+	"name": "山南扎囊沙漠公园",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/7XaoVTIt.jpg"
+}, {
+	"name": "拉萨东郊",
+	"src": "https://raw.githubusercontent.com/couragezy/pics/main/JGKjxl1t.jpg"
+},{
 	"name": "拉萨东郊",
 	"src": "https://raw.githubusercontent.com/couragezy/pics/main/JGKjxl1t.jpg"
 }]
