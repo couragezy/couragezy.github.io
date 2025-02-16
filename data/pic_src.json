@@ -1,25 +1,61 @@
-[ {
-	"name": "我的家",
-	"src": "https://raw.githubusercontent.com/couragezy/pics/main/ky8ZYGw0.jpg"
+[{
+	"province_name": "重庆市",
+	"cities": [{
+		"city_name": "奉节县",
+		"pics": [{
+			"pic_name": "我的家",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/ky8ZYGw0.jpg"
+		}, {
+			"pic_name": "羊市镇大淌村",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/ZuAOrSzc.jpg"
+		}]
+	}, {
+		"city_name": "北碚区",
+		"pics": [{
+			"pic_name": "金刚碑",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/NCp7Fmb5.jpg"
+		}]
+	}]
 }, {
-	"name": "重庆市奉节县羊市镇大淌村",
-	"src": "https://raw.githubusercontent.com/couragezy/pics/main/ZuAOrSzc.jpg"
+	"province_name": "四川省",
+	"cities": [{
+		"city_name": "成都市",
+		"pics": [{
+			"pic_name": "大邑县西河边",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/aabTzFvM.jpg"
+		}]
+	}]
 }, {
-	"name": "重庆市北碚区金刚碑",
-	"src": "https://raw.githubusercontent.com/couragezy/pics/main/NCp7Fmb5.jpg"
+	"province_name": "云南省",
+	"cities": [{
+		"city_name": "大理市",
+		"pics": [{
+			"pic_name": "磻溪",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/F85EetHv.jpg"
+		}]
+	}]
 }, {
-	"name": "成都市大邑县西河边",
-	"src": "https://raw.githubusercontent.com/couragezy/pics/main/aabTzFvM.jpg"
-}, {
-	"name": "大理市磻溪",
-	"src": "https://raw.githubusercontent.com/couragezy/pics/main/F85EetHv.jpg"
-}, {
-	"name": "昌都市八宿县怒江72拐",
-	"src": "https://raw.githubusercontent.com/couragezy/pics/main/CUmvXnxY.jpg"
-}, {
-	"name": "山南扎囊沙漠公园",
-	"src": "https://raw.githubusercontent.com/couragezy/pics/main/7XaoVTIt.jpg"
-},{
-	"name": "拉萨东郊",
-	"src": "https://raw.githubusercontent.com/couragezy/pics/main/JGKjxl1t.jpg"
+	"province_name": "西藏自治区",
+	"cities": [{
+		"city_name": "拉萨市",
+		"pics": [{
+			"pic_name": "城关区东郊",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/JGKjxl1t.jpg"
+		}]
+	}, {
+		"city_name": "山南市",
+		"pics": [{
+			"pic_name": "扎囊沙漠公园",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/7XaoVTIt.jpg"
+		}, {
+			"pic_name": "鲁日拉观景台",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/MWVzjsua.jpg"
+		}]
+	}, {
+		"city_name": "昌都市",
+		"pics": [{
+			"pic_name": "八宿县怒江72拐",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/CUmvXnxY.jpg"
+		}]
+	}]
 }]
