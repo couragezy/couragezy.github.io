@@ -3,9 +3,12 @@
 	"cities": [{
 		"city_name": "奉节县",
 		"pics": [{
-			"pic_name": "我的家",
+			"pic_name": "我的家-1",
 			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/ky8ZYGw0.jpg"
-		}, {
+		},{
+			"pic_name": "我的家-2",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/ld0GuLKJ.jpg"
+		},  {
 			"pic_name": "羊市镇大淌村",
 			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/ZuAOrSzc.jpg"
 		}]
