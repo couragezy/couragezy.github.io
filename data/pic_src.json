@@ -78,16 +78,16 @@
 			"pic_name": "大邑县董场",
 			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/hlL2O8f1.jpg"
 		}, {
-		"city_name": "成都市",
-		"pics": [{
 			"pic_name": "大邑县西河边",
 			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/6T8slKnR.jpg"
-		}, {
+		}]
+}, {
 		"city_name": "阿坝州",
 		"pics": [{
 			"pic_name": "阿坝州",
 			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/rqONGawP.jpg"
-		}, {
+		}]
+}, {
 		"city_name": "甘孜藏族自治州",
 		"pics": [{
 			"pic_name": "雅江县天路十八弯",
