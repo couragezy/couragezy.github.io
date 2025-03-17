@@ -1,22 +1,75 @@
+couragezy.github.com
+
 [{
 	"province_name": "重庆市",
 	"cities": [{
 		"city_name": "奉节县",
 		"pics": [{
-			"pic_name": "我的家-1",
-			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/ky8ZYGw0.jpg"
-		},{
-			"pic_name": "我的家-2",
-			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/ld0GuLKJ.jpg"
+			"pic_name": "我的家1",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/K9ERolFx.jpg"
 		},  {
-			"pic_name": "羊市镇大淌村",
-			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/ZuAOrSzc.jpg"
+			"pic_name": "我的家2",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/jMK1hcXJ.jpg"
+		},  {
+			"pic_name": "我的家3",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/OJ2f7bAK.jpg"
+		},    {
+			"pic_name": "羊市镇大淌村梁上1",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/wqf2RRni.jpg"
+		} ,  {
+			"pic_name": "羊市镇大淌村梁上 2",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/t25zdRZ5.jpg"
+		} ,  {
+			"pic_name": "羊市镇大淌村梁上 3",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/i6IqWk5w.jpg"
+		} ,   {
+			"pic_name": "羊市镇大淌村梁上 4",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/ZSG3T4a8.jpg"
+		} ,   {
+			"pic_name": "羊市镇大淌村红沙梁",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/nKG5r9sS.jpg"
+		} ,  {
+			"pic_name": "羊市镇大淌村郭家河坝",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/B3Uk7AVN.jpg"
+		} ,  {
+			"pic_name": "羊市镇大淌村冉家营",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/9qdYYjtN.jpg"
+		} ,  {
+			"pic_name": "羊市镇楼门村杨柳池",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/lT07NLQg.jpg"
+		} ,  {
+			"pic_name": "羊市镇",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/QUl2x9WL.jpg"
+		} ,  {
+			"pic_name": "堰坪镇",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/Y4HzAJff.jpg"
 		}]
-	}, {
+}, {
+		"city_name": "云阳县",
+		"pics": [{
+			"pic_name": "云端廊桥1",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/uhGWzK5E.jpg"
+		}, {
+			"pic_name": "云端廊桥2",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/1XLQvYBX.jpg"
+		}]
+} , {
 		"city_name": "北碚区",
 		"pics": [{
 			"pic_name": "金刚碑",
-			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/NCp7Fmb5.jpg"
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/k7g8fHIV.jpg"
+		}]
+} , {
+		"city_name": "渝北区",
+		"pics": [{
+			"pic_name": "铁山坪森林公园",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/KZzvRx7t.jpg"
+		} ]
+}, {
+		"city_name": "九龙坡区",
+		"pics": [{
+			"pic_name": "花房子湿地公园",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/cpDjCW1w.jpg"
 		}]
 	}]
 }, {
@@ -24,8 +77,26 @@
 	"cities": [{
 		"city_name": "成都市",
 		"pics": [{
+			"pic_name": "大邑县董场",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/hlL2O8f1.jpg"
+		}, {
+		"city_name": "成都市",
+		"pics": [{
 			"pic_name": "大邑县西河边",
-			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/aabTzFvM.jpg"
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/6T8slKnR.jpg"
+		}, {
+		"city_name": "阿坝州",
+		"pics": [{
+			"pic_name": "阿坝州",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/rqONGawP.jpg"
+		}, {
+		"city_name": "甘孜藏族自治州",
+		"pics": [{
+			"pic_name": "雅江县天路十八弯",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/BmEg20VO.jpg"
+		}, {
+			"pic_name": "巴塘县姊妹湖",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/H5jUE57Z.jpg"
 		}]
 	}]
 }, {
@@ -34,7 +105,13 @@
 		"city_name": "大理市",
 		"pics": [{
 			"pic_name": "磻溪",
-			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/F85EetHv.jpg"
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/1wq5Valb.jpg"
+		}, {
+			"pic_name": "罗荃半岛",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/TmOoCQJk.jpg"
+		}, {
+			"pic_name": "文笔村",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/sxZwEItL.jpg"
 		}]
 	}]
 }, {
@@ -43,22 +120,25 @@
 		"city_name": "拉萨市",
 		"pics": [{
 			"pic_name": "城关区东郊",
-			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/JGKjxl1t.jpg"
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/tI5iDOcq.jpg"
+		}, {
+			"pic_name": "达孜区东",
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/1OP0URGB.jpg"
 		}]
 	}, {
 		"city_name": "山南市",
 		"pics": [{
 			"pic_name": "扎囊沙漠公园",
-			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/7XaoVTIt.jpg"
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/DdTQkkGx.jpg"
 		}, {
 			"pic_name": "鲁日拉观景台",
-			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/MWVzjsua.jpg"
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/AifHtp8X.jpg"
 		}]
 	}, {
 		"city_name": "昌都市",
 		"pics": [{
 			"pic_name": "八宿县怒江72拐",
-			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/CUmvXnxY.jpg"
+			"pic_src": "https://raw.githubusercontent.com/couragezy/pics/main/M3jhlSaF.jpg"
 		}]
 	}]
 }]
